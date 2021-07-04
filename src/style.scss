@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Share+Tech+Mono&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Share Tech Mono", monospace;
+}
+.theme {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #ffffff;
+    padding: 0 150px;
+}
+.tag {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+.info_div {
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+    margin: 50px 0 50px 0;
+    padding-right: 50px;
+}
+.btn_a {
+    text-decoration: none;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #fcb72b;
+    border: 2px solid #FCB72B;
+    padding: 12px 30px;
+    margin-top: 20px;
+    &:active{
+        background: transparent;
+        color: #FCB72B;
+    }
+}
+.mini_box {
+    width: 50%;
+    // padding: 0 40px;
+    position: relative;
+}
+.section {
+    padding: 100px 150px !important;
+    .right {
+        position: absolute;
+        bottom: 100px;
+        right: 0;
+    }
+    .left {
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+}
+.nav {
+    background: #ffffff !important;
+}
+.head_more {
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+.more {
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+}
+.home {
+    background: url(../images/Bitmap.jpg) no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+    .content {
+        max-width: 1350px;
+        .infos {
+            display: flex;
+            align-items: center;
+            .path,
+            .info,
+            .strelka {
+                margin-right: 50px;
+            }
+            .path {
+                margin-top: -50px;
+            }
+            .info {
+                .info_ {
+                    color: #ffffff;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin: 50px 0 50px 0;
+                }
+            }
+            .strelka {
+                margin-top: 80px;
+            }
+            .round {
+                margin-bottom: -140px;
+            }
+        }
+    }
+}
+.about_app {
+    padding: 130px;
+    position: relative;
+    max-width: 1200px;
+    .app {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .box {
+            padding: 0 20px;
+        }
+        .path {
+            position: absolute;
+            top: 170px;
+            left: -20px;
+            z-index: -1;
+        }
+    }
+    .right_mask {
+        width: 99px;
+        position: absolute;
+        top: 15%;
+        right: 0;
+    }
+    .left_mask {
+        width: 99px;
+        position: absolute;
+        top: 15%;
+        left: 0;
+    }
+}
+.media {
+    background: url(../images/footer_back.png) no-repeat;
+    padding: 80px 150px;
+    max-width: 1140px;
+    .sign {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .text {
+            .theme {
+                padding: 0 !important;
+            }
+        }
+    }
+}
+.footer {
+    background: #333a44;
+    padding: 30px 150px;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-brand {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 70px;
+        }
+        .link {
+            a {
+                text-decoration: none;
+                font-family: Space Mono;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 25px;
+                color: #939caa;
+                margin: 0 10px;
+                &:active{
+                    color: #FCB72B;
+                    ;
+                }
+            }
+        }
+    }
+    .social-media {
+        i {
+            font-size: 36px;
+            color: #fcb72b;
+            cursor: pointer;
+            margin: 0 10px;
+            &:active{
+                color: #E5ECF4;
+            }
+        }
+    }
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+
+// About.html uchun
+.home-about {
+    background: url(../images/Bitmap-about.png) no-repeat;
+    background-size: 100%;
+    padding: 50px 0 !important;
+    opacity: 0.8;
+    .infos {
+        justify-content: space-between;
+    }
+}
+.values {
+    max-width: 1140px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    .tag {
+        text-align: center;
+        margin: 100px 0;
+    }
+    .values_content {
+        width: 100%;
+        display: flex;
+        .value {
+            width: 33.33333%;
+            text-align: center;
+            padding: 0 20px;
+            .img {
+                position: relative;
+                margin-bottom: 5rem;
+                img {
+                    border-radius: 50%;
+                    width: 80%;
+                }
+            }
+            .number {
+                position: absolute;
+                bottom: -45px;
+                left: 110px;
+                background: #fcb72b;
+                width: 96px;
+                height: 96px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                span {
+                    font-family: Space Mono;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 28px;
+                    letter-spacing: -1.07143px;
+                    color: #495567;
+                }
+            }
+        }
+    }
+}
+.faq {
+    padding-bottom: 100px !important;
+    .faq-content {
+        width: 100%;
+        display: flex;
+        margin-bottom: 2rem;
+        .tims {
+            width: 33.3333%;
+            padding-top: 10px;
+            .tim {
+                font-family: Space Mono;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: -1.78571px;
+                color: #495567;
+            }
+        }
+        .information {
+            width: 66.6667%;
+            .cont {
+                overflow: hidden;
+                margin: 10px 0;
+                .question {
+                    background: #f2f5f9;
+                    padding: 30px 30px 20px 30px;
+                    position: relative;
+                    z-index: 1;
+                    margin: 0 !important;
+                    position: relative;
+                    cursor: pointer;
+                    &:active{
+                        background: #FFF4DF;
+                    }
+                    span {
+                        i {
+                            position: absolute;
+                            top: 40%;
+                            right: 5%;
+                            transform: rotate(180deg);
+                            transition: transform 0.3s ease;
+                        }
+                        .rotate{
+                            transform: rotate(0deg);
+                        }
+                    }
+                    // &:hover + .answer {
+                    //     display: block;
+                    // }
+                }
+                .answer {
+                    background: #f2f5f9;
+                    padding: 0 30px 20px 30px;
+                    transition: all 1s ease;
+                }
+            }
+        }
+    }
+}
+
+//  Careers.html uchun
+.home-careers {
+    background: url(../images/Bitmap_careers_back.png) no-repeat !important;
+    background-size: 100%;
+    padding: 50px 0 !important;
+    opacity: 0.8;
+    .infos {
+        justify-content: space-between;
+    }
+}
+.careers {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    .works_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        margin-bottom: 2rem;
+        background: #f2f5f9;
+        .area {
+            .town {
+                margin: 7px 0 !important;
+            }
+        }
+        .apply_btn {
+            .btn_a {
+                padding: 12px 45px !important;
+            }
+        }
+    }
+}
+
+// Location.html uchun
+.location {
+    max-width: 1040px !important;
+    position: relative;
+    max-width: 1140px;
+    .maps {
+        img {
+            width: 100%;
+        }
+    }
+    .dot {
+        position: absolute;
+        .gps {
+            position: relative;
+            width: 100px;
+            color: #495567;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #fcb72b;
+            padding: 12px 30px;
+            span {
+                width: 20px;
+                height: 20px;
+                background-color: #fcb72b;
+                position: absolute;
+                top: 35px;
+                right: 65px;
+                transform: rotate(45deg);
+            }
+        }
+        .new_york {
+            top: -420px;
+            left: 142px;
+        }
+        .london {
+            top: -520px;
+            right: -380px;
+        }
+        .yakohama {
+            top: -510px;
+            left: 805px;
+        }
+        .jakarta {
+            top: -395px;
+            left: 750px;
+        }
+    }
+}
+.your_city {
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    .theme {
+        color: #333a44;
+        padding: 0 !important;
+    }
+}
